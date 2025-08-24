@@ -49,6 +49,7 @@ def test_print(capture_stdout):
     print("hello")
     assert capture_stdout["stdout"] == "hello\n"
 
+
 # def test_many_slaps():
 #     assert slap_many(LikeState.empty, 'll') is LikeState.empty
 #     assert slap_many(LikeState.empty, 'dd') is LikeState.empty
