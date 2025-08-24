@@ -18,9 +18,9 @@ jobs:
       # A matrix is a set of key-value pairs that defines different permutations of a job.
       matrix:
         # The 'os' key specifies a list of operating systems to run the job on.
-        os: [ubuntu-20.04, windows-latest]
+        os: [ubuntu-latest, windows-latest]
         # The 'python-version' key specifies a list of Python versions to use.
-        python-version: ["3.7", "3.8", "3.9"]
+        python-version: ["3.8", "3.9"]
 
     # The steps within a job. These are a sequence of tasks to be executed.
     steps:
